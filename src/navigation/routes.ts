@@ -1,7 +1,10 @@
 import type { StackNavigationProp } from "@react-navigation/stack";
 
 export type RootStackScreens = {
-	Home: undefined;
-}
+	Main: undefined;
+	SelectionForm: undefined;
+};
 
-export type HomeNavigationProps = StackNavigationProp<RootStackScreens, "Home">;
+export type HomeNavigationProps = StackNavigationProp<RootStackScreens,"Main">;
+
+export type SelectionFormNavigationProps = StackNavigationProp<RootStackScreens,"SelectionForm">;
