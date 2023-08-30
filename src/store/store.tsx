@@ -1,7 +1,7 @@
 import { create } from "zustand";
-import { getMakesList, getModelsByMakeIdAndYear } from "@src/services/services";
-import getMakesNameList from "@src/utils/get-makes-name-list";
-import getYearsList from "@src/utils/get-year-list";
+import { getMakesList, getModelsByMakeIdAndYear } from "../services/services";
+import getMakesNameList from "../utils/get-makes-name-list";
+import getYearsList from "../utils/get-year-list";
 
 type State = {
 	selectedYear: number | null;

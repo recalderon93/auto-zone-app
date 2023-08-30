@@ -1,8 +1,8 @@
-import { Colors, scale } from "@src/styles";
+import { Colors, scale } from "../../styles";
 import { useMemo } from "react";
 import { View, Text, StyleSheet, ViewProps } from "react-native";
 import CarIcon from "../icons/car-icon";
-import { elevations } from "@src/styles/elevations";
+import { elevations } from "../../styles/elevations";
 
 type Props = {
 	isSelected?: boolean;

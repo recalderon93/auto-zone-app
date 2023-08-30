@@ -2,9 +2,9 @@
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import CloseIcon from "../icons/close-icon";
 import BackArrowIcon from "../icons/back-arrow-icon";
-import { Colors, scale } from "@src/styles";
-import { elevations } from "@src/styles/elevations";
-import getPressedStyles from "@src/styles/get-pressed-style";
+import { Colors, scale } from "../../styles";
+import { elevations } from "../../styles/elevations";
+import getPressedStyles from "../../styles/get-pressed-style";
 
 type Props = {
 	/**

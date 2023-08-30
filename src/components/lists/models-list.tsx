@@ -1,4 +1,4 @@
-import { Colors, scale } from "@src/styles";
+import { Colors, scale } from "../../styles";
 import { StyleSheet, FlatList } from "react-native";
 import SelectionListItem from "../selection-list-item/selection-list-item";
 

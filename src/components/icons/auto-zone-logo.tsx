@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { scale } from "@src/styles";
+import { scale } from "../../styles";
 import Svg, { Path, Mask, G, SvgProps } from "react-native-svg";
 
 type Props = {

@@ -1,4 +1,4 @@
-import { scale } from "@src/styles";
+import { scale } from "../../styles";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 type Props = { size?: number } & SvgProps;
@@ -10,7 +10,7 @@ const defaultProps = {
 
 /**
  * # BackArrowIcon
- * 
+ *
  * @component
  * @description This component is used to render a back arrow icon.
  * @category Components - Icons

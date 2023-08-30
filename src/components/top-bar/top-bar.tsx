@@ -1,9 +1,9 @@
-import { Colors, scale } from "@src/styles";
+import { Colors, scale } from "../../styles";
 import { useMemo } from "react";
 import { View, StyleSheet } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import AutoZoneLogo from "@components/icons/auto-zone-logo";
-import { elevations } from "@src/styles/elevations";
+import AutoZoneLogo from "../icons/auto-zone-logo";
+import { elevations } from "../../styles/elevations";
 
 const TopBar = () => {
 	const { top } = useSafeAreaInsets();

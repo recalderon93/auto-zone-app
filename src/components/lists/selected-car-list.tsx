@@ -1,4 +1,4 @@
-import { Colors, scale } from "@src/styles";
+import { Colors, scale } from "../../styles";
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import CTAButton from "../buttons/cta-button";
 import SelectedCarItem from "../selected-car-item/selected-car-item";

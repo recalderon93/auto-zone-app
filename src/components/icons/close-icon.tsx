@@ -1,4 +1,4 @@
-import { scale } from "@src/styles";
+import { scale } from "../../styles";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 type Props = {

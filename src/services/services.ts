@@ -21,7 +21,6 @@ export const getMakesList = async () => {
 export const getModelsByMakeIdAndYear = async (makeID: number, year: number) => {
 	try {
 		const url = `vehicles/GetModelsForMakeIdYear/makeId/${makeID}/modelyear/${year}?format=json`;
-		console.log(url);
 		const response = await azService.get<GetModelByMakeAndYearResponse>(url);
 
 		if (response.status === 200) {

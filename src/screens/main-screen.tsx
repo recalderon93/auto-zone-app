@@ -1,7 +1,7 @@
-import { HomeNavigationProps } from "@src/navigation/routes";
-import ScreenTemplate from "@src/components/screen-template/screen-template";
-import SelectedCarList from "@src/components/lists/selected-car-list";
-import useStore from "@src/store/store";
+import { HomeNavigationProps } from "../navigation/routes";
+import ScreenTemplate from "../components/screen-template/screen-template";
+import SelectedCarList from "../components/lists/selected-car-list";
+import useStore from "../store/store";
 
 type Props = {
 	navigation: HomeNavigationProps;

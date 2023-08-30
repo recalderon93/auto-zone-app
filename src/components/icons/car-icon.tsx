@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { scale } from "@src/styles";
+import { scale } from "../../styles";
 import { useMemo } from "react";
 import Svg, { G, Path, Mask, Defs, ClipPath, SvgProps } from "react-native-svg";
 

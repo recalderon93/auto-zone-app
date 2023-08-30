@@ -1,13 +1,13 @@
-import MakesList from "@src/components/lists/makes-list";
-import ModelsList from "@src/components/lists/models-list";
-import YearList from "@src/components/lists/year-list";
-import ScreenTemplate from "@src/components/screen-template/screen-template";
-import StepsSelectionBar from "@src/components/step-selection-bar/step-selection-bar";
-import { SelectionFormNavigationProps } from "@src/navigation/routes";
-import useStore from "@src/store/store";
-import { Colors, scale } from "@src/styles";
+import MakesList from "../components/lists/makes-list";
+import ModelsList from "../components/lists/models-list";
+import YearList from "../components/lists/year-list";
+import ScreenTemplate from "../components/screen-template/screen-template";
+import StepsSelectionBar from "../components/step-selection-bar/step-selection-bar";
+import { SelectionFormNavigationProps } from "../navigation/routes";
+import useStore from "../store/store";
+import { Colors, scale } from "../styles";
 import { useEffect, useRef } from "react";
-import { ActivityIndicator, Platform, StyleSheet, Text, View } from "react-native";
+import { ActivityIndicator, Platform, StyleSheet, View } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
 
 type Props = {

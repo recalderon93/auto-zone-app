@@ -1,7 +1,7 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import { RootStackScreens } from "./routes";
-import MainScreen from "@src/screens/main-screen";
-import CarSelectionScreen from "@src/screens/car-selection-screen";
+import MainScreen from "../screens/main-screen";
+import CarSelectionScreen from "../screens/car-selection-screen";
 
 const Stack = createStackNavigator<RootStackScreens>();
 

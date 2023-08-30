@@ -1,9 +1,9 @@
-import { Colors, scale } from "@src/styles";
-import getPressedStyles from "@src/styles/get-pressed-style";
+import { Colors, scale } from "../../styles";
+import getPressedStyles from "../../styles/get-pressed-style";
 import { View, Text, StyleSheet, PressableProps, Pressable } from "react-native";
 import CarIcon from "../icons/car-icon";
 import RightChevronIcon from "../icons/right-chevron-icon";
-import { elevations } from "@src/styles/elevations";
+import { elevations } from "../../styles/elevations";
 
 type Props = {
 	title: string;
